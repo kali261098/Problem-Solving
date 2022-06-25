@@ -13,8 +13,6 @@ public class Permutation{
         String s=sc.nextLine();
         Map<Character,Integer> map1=convt(str);
         Map<Character,Integer> map2=convt(s); 
-        System.out.println(map1);
-        System.out.println(map2);
         int flag=1;
         for(Character c: map1.keySet())
         {
